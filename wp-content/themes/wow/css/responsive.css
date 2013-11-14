@@ -1,0 +1,291 @@
+/*********************************  Computer < 1239 *********************************/
+
+@media only screen and (max-width: 1239px) {
+	#right-header-nav {
+	display: none;
+	}
+	
+}
+
+/*********************************  Tablet (Landscape)  *********************************/
+
+@media only screen and (max-width: 1024px) {
+	#footer{width:100%;}
+	.standard_field select{width:75px;}
+	#megaUber{display:block;}
+}
+
+
+/*********************************  Tablet (Portrait)  *********************************/
+
+@media only screen and (max-width: 959px) {	
+
+
+	/********* Header *********/
+
+	/* Left Header Navigation */
+	#header .nav .menu > li > a,
+	#header #megaMenu ul.megaMenu > li.menu-item > a {
+	padding-left: 5px;
+	}
+
+	/* Right Header Nav */
+	#right-header-nav {
+	float: none;
+	}
+	
+	
+	
+}
+
+
+/******************************************  Mobile (Landscape)  ******************************************/
+
+@media only screen and (max-width: 768px) {
+   .main_page_flash{display:none;}
+   .mobile_none{display:none;}
+   .mobile_page_flash{display:block;margin:0 auto;padding:10px;}	
+   .mobile_page_flash img{height:176px;}	
+   .mobile_page1{display:inline-block;width:100%;}
+   .mobile_page2{display:inline-block;width:100%;padding-top:10px;}
+   .mobile_page1 img{width:26%;padding-left:20px;padding-top:10px;}
+   .mobile_page2 img{width:35%;padding-left:70px;}
+   .mobile_full{width:100% !important;}
+   
+	#footer-language-list{display:none;}
+	#enquiryForm{ width:100%;}
+	form#new_bid input,form#new_bid select{width:100%;}
+	form#new_bid .nofull input{width:auto;}
+	
+	#copy .art_heading{ display:none;}
+    .page_flash_all{margin-top:0px; clear:both; background:url("../img/newindex2.jpg") no-repeat scroll center top #000;}
+
+	
+	#footer li{float:none;}
+	#footer ul{padding-left:20px;}
+	/********* Content Areas *********/
+
+	/* Main Content */
+	#content {
+	width: 100%;
+	padding: 15px !important;
+	}
+	
+	/* Sidebar */
+	#sidebar {
+	width: 100%;
+	position: relative;
+	padding: 30px 15px 15px;
+	border-top: 1px solid #eee;
+	}
+	
+
+	/********* Header *********/
+
+	/* Header Container */
+	#header {
+	position: relative !important;
+	padding: 0;
+	}
+	
+	/* Logo */
+	#logo img {
+	width: auto !important;
+	height: auto !important;
+	max-height: 46px;
+	}
+	
+	/* Left Header Navigation */
+	#left-header-nav {
+	width: 100%;
+	max-width: none;
+	margin: 0;
+	/*display:none;*/
+	}
+	#left-header-nav .menu {
+	display: none;
+	}
+	#left-header-nav .mobile-select-wrapper {
+	display: block;
+	}
+	#header .nav .menu > li > a,
+	#header #megaMenu ul.megaMenu > li.menu-item > a {
+	padding: 12px 20px 12px 15px;
+	}
+	
+	/* Right Header Navigation */
+	#right-header-nav {
+	display: none;
+	}
+	
+	/* Mobile Navigation */
+	#mobile-nav {
+	display: block;
+	}
+
+
+	/********* Info Bar *********/
+
+	/* Info Bar Container */
+	#info-bar {
+	padding: 15px 15px 0 !important;
+	}
+	.page-template-homepage-php #info-bar {
+	/*margin-top: 42px;*/
+	}
+	
+	/* Post Navigation */
+	#post-navigation {
+	margin-top: 0;
+	width: 100%;
+	text-align: center;
+	}
+	
+	/* Search Form */
+	#info-bar #search {
+	display: none;
+	width: 100%;
+	max-width: none;
+	}
+
+
+	/********* Footer *********/
+
+	/* Footer Bottom */
+	#footer-bottom {
+	height: auto;
+	position: relative !important;
+	padding: 15px 20px;
+	}
+	
+	/* Social Icons */
+	#social-icons {
+	width: 100%;
+	text-align: center;
+	}
+	
+	/* Copyright */
+	#copyright {
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;	
+	}
+	.show-footer-language-list #copyright {
+	margin-right: 0;
+	}
+
+	/* Languages */
+	#footer-language-list {
+	width: 100%;
+	height: auto;
+	}
+	#footer-language-list ul {
+	text-align: center;
+	}	
+	#footer-language-list ul li {
+	display: inline-block;
+	padding: 10px 7.5px;
+	filter:alpha(opacity=40);
+	opacity: 0.4;
+	}
+	#footer-language-list ul li.chosen,
+	#footer-language-list ul li:hover {
+	padding: 10px 7.5px;
+	filter:alpha(opacity=100);
+	opacity: 1;
+	}
+	#footer-language-list ul li .icl_lang_sel_current,
+	#footer-language-list ul li a:last-child {
+	display: none;
+	}
+		
+    .woocommerce-page ul.products{width:100%;float:left;}
+	.fpGuides li{clear:both;}
+	.fpGuides li p{clear:both;}
+	.video{width:100%;}
+	
+	
+	.page-template ul.products{width:100%;}
+	.searchBar{width:100%;}
+	.standard_field3{width:100%;}
+	.standard_field1 label{width:20%;}
+	.standard_field1 input{width:80%;}
+	.standard_field{width:100%;}
+	.standard_field select{width:100%;}
+	
+	.banner-lf{width:100%;}
+	.banner-lf img{width:100%;}
+	
+	.videoall{display:none;}
+
+	
+	.summary{width:100%;}
+	
+	#buy_detailed{width:100%;}
+	#buy_pay{width:100%;}
+	
+}
+
+
+/******************************************  Mobile (Portrait)  ******************************************/
+
+@media only screen and (max-width: 480px) {	
+	
+
+	/********* Single Product Page *********/
+
+	/* Summary */
+	.woocommerce-page div.product div.summary {
+	width: 100% !important;
+	}
+	
+	/* Images */
+	.woocommerce-page div.product div.images {
+	width: 100% !important;
+	max-width: 100%;
+	padding: 0 0 20px 0;
+	}
+
+	/* Quantity */
+	.woocommerce-page table.cart .quantity {
+	width: 70px;
+	}
+	.woocommerce-page.woocommerce-cart .quantity .plus,
+	.woocommerce-page.woocommerce-cart .quantity .minus {
+	padding: 8px 6px;
+	width: 19px;
+	}	
+	.woocommerce-page .quantity input.qty {
+	width: 32px;
+	}
+	
+	.mobile_page1 img{width:31%;padding-left:5px;}
+    .mobile_page2 img{width:35%;padding-left:20px;}
+	
+}
+
+@media only screen and (max-width: 380px) {	
+	.mobile_page1 img{width:31%;}
+    .mobile_page2 img{width:37%;padding-left:36px;}
+	.mobile_page_flash img{height:155px;}
+}
+
+
+@media only screen and (max-width: 320px) {	
+	#mobile-nav{float:none;max-width:none;width:100%;}
+	#mobile-nav .mobile-icon:last-child{margin-right:0px;}
+	
+	.mobile_page1 img{width:32%;padding-left:3px;}
+    .mobile_page2 img{width:35%;padding-left:7px;}
+	.mobile_page_flash img{height:139px;}
+    
+	#footer li{margin:5px 0px 0px 25px;}
+	
+	
+}
+
+@media only screen and (max-width: 240px) {	
+   #logo{float:none;}
+   .info .links{width:183px;}
+	
+}
